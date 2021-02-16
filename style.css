@@ -44,11 +44,13 @@ body{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 1rem;
-    margin: 2rem 2rem;
+    margin: 10rem 2rem;
+    justify-items: center;
   }
 
   .hero-profile-container{
     width: 100%;
+    max-width: 500px;
     height: 100%;
   }
 
@@ -71,7 +73,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #b61010;
+    background: url(/resources/Artboard\ –\ 1.svg);
     position: absolute;
   }
 
